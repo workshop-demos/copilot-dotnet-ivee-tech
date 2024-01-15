@@ -75,5 +75,5 @@ dotnet publish -c Release -o publish
 
 ``` powershell
 docker build -t dotnetapp .
-docker run -d -p 8080:80 --name dotnetapp dotnetapp
+docker run -d -p 8081:8080 --name dotnetapp dotnetapp
 ```
